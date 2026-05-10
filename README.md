@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Monito Pets E-commerce
 
-## Getting Started
+A modern, high-performance, and fully responsive Pets E-commerce platform built with the latest web technologies.
 
-First, run the development server:
+## 🚀 Live Demo
+Check out the live application here: [https://monito-pets-ecommerce.vercel.app/](https://monito-pets-ecommerce.vercel.app/)
 
-```bash
+## 📱 Mobile Interface
+The design is crafted with a mobile-first approach, ensuring a seamless experience across all devices.
+
+[Mobile Design Interface](public/design/homepagemobile.png)
+[Mobile Design Interface](public/design/homepagedesktop.png)
+
+## 🛠 Tech Stack
+This project leverages a cutting-edge frontend stack:
+
+* **Framework:** Next.js 16 (App Router) & React 19
+* **Styling:** Tailwind CSS v4 (utilizing `@tailwindcss/postcss`)
+* **Language:** TypeScript for robust type safety
+* **Optimization:** React Compiler for automatic render optimization
+* **Icons:** React Icons
+* **Utilities:** `clsx` & `tailwind-merge` for clean dynamic class management
+
+## ✨ Key Features
+* **Fully Responsive:** Optimized for mobile, tablet, and desktop views.
+* **Modern UI/UX:** Clean and intuitive interface designed for a premium shopping experience.
+* **Latest React Features:** Implementing the new React 19 standards and the React Compiler.
+* **Optimized Performance:** Fast loading times and smooth transitions.
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- Node.js 20 or later
+- npm / yarn / pnpm
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/hermansyah/monito-pets-ecommerce.git](https://github.com/hermansyah/monito-pets-ecommerce.git)
+Install dependencies:
+
+Bash
+npm install
+Run the development server:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+👤 Author
+Heri Hermansyah
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+GitHub: hermansyah
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Note: This project utilizes Tailwind CSS v4. Ensure your build environment supports the latest PostCSS configuration.
