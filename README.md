@@ -8,8 +8,10 @@ Check out the live application here: [https://monito-pets-ecommerce.vercel.app/]
 ## 📱 Mobile Interface
 The design is crafted with a mobile-first approach, ensuring a seamless experience across all devices.
 
-![Mobile Design Interface](public/design/homepagemobile.png)
-![Mobile Design Interface](public/design/homepagedesktop.png)
+<div>
+  <img src="./public/design/Homepagemobile.png" alt="design" />
+  <img src="./public/design/Homepagedesktop.png" alt="design" />
+</div>
 
 ## 🛠 Tech Stack
 This project leverages a cutting-edge frontend stack:
