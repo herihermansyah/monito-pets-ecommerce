@@ -1,26 +1,41 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --container-wide: 1180px;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* color */
+  --color-dark-blue: #003459;
+  --color-dark-blue-40: #0078cd;
+  --color-dark-blue-60: #00528c;
+  --color-dark-blue-80: #002a48;
+  /*  */
+  --color-mon-yellow: #f7dba7;
+  --color-mon-yellow-40: #fceed5;
+  --color-mon-yellow-60: #f1d092;
+  --color-mon-yellow-80: #eec77e;
+  --color-mon-yellow-100: #ffb775;
+  /*  */
+  --color-pink-red: #ff564f;
+  --color-green-light: #34c759;
+  --color-orange-shine: #ff912c;
+  --color-blue-sea: #00a7e7;
+  /*  */
+  --color-neutral-color-100: #00171f;
+  --color-neutral-color-80: #242b33;
+  --color-neutral-color-60: #667479;
+  --color-neutral-color-40: #99a2a5;
+  --color-neutral-color-20: #ccd1d2;
+  --color-neutral-color-10: #ebeeef;
+  --color-neutral-color-00: #fdfdfd;
+  /*  */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  --background-yellow-linear: linear-gradient(
+    to right,
+    #fceed5 6%,
+    #fceed5 75%,
+    #ffe7ba 100%
+  );
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /*  */
+  --shadow-custom: 0 4px 28px -2px rgba(0, 0, 0, 0.08);
 }
